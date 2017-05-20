@@ -13,21 +13,25 @@ Tested Python 2.7.6.
 
 ## Running the tests
 
----
+~~~
 python -m unittest discover -s html_cache/tests -p "*_test.py"
----
+~~~
 
 ## Built With
+
 ### Main
----
+
+~~~
 import md5, os, os.path
 import urllib
----
+~~~
+
 ### Tests
----
+
+~~~
 import sys, os
 import unittest
----
+~~~
 
 ## Authors
 
